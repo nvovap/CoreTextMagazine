@@ -12,6 +12,10 @@
 		32CCA3751EF7B6F10034AA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCA3731EF7B6F10034AA3E /* Main.storyboard */; };
 		32CCA3771EF7B6F10034AA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCA3761EF7B6F10034AA3E /* Assets.xcassets */; };
 		32CCA37A1EF7B6F10034AA3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCA3781EF7B6F10034AA3E /* LaunchScreen.storyboard */; };
+		32CCA3831EF7BC050034AA3E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCA3821EF7BC050034AA3E /* CoreText.framework */; };
+		32CCA3851EF7BDCE0034AA3E /* CTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCA3841EF7BDCE0034AA3E /* CTView.swift */; };
+		32CCA3871EF8066A0034AA3E /* zombieMagMaterials in Resources */ = {isa = PBXBuildFile; fileRef = 32CCA3861EF8066A0034AA3E /* zombieMagMaterials */; };
+		32CCA3891EF8079B0034AA3E /* MarkupParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCA3881EF8079B0034AA3E /* MarkupParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		32CCA3761EF7B6F10034AA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CCA3791EF7B6F10034AA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32CCA37B1EF7B6F10034AA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CCA3821EF7BC050034AA3E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		32CCA3841EF7BDCE0034AA3E /* CTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTView.swift; sourceTree = "<group>"; };
+		32CCA3861EF8066A0034AA3E /* zombieMagMaterials */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zombieMagMaterials; sourceTree = "<group>"; };
+		32CCA3881EF8079B0034AA3E /* MarkupParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkupParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CCA3831EF7BC050034AA3E /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,7 @@
 			children = (
 				32CCA36E1EF7B6F10034AA3E /* CoreTextMagazine */,
 				32CCA36D1EF7B6F10034AA3E /* Products */,
+				32CCA3811EF7BC050034AA3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +64,10 @@
 		32CCA36E1EF7B6F10034AA3E /* CoreTextMagazine */ = {
 			isa = PBXGroup;
 			children = (
+				32CCA3861EF8066A0034AA3E /* zombieMagMaterials */,
 				32CCA36F1EF7B6F10034AA3E /* AppDelegate.swift */,
+				32CCA3841EF7BDCE0034AA3E /* CTView.swift */,
+				32CCA3881EF8079B0034AA3E /* MarkupParser.swift */,
 				32CCA3711EF7B6F10034AA3E /* ViewController.swift */,
 				32CCA3731EF7B6F10034AA3E /* Main.storyboard */,
 				32CCA3761EF7B6F10034AA3E /* Assets.xcassets */,
@@ -62,6 +75,14 @@
 				32CCA37B1EF7B6F10034AA3E /* Info.plist */,
 			);
 			path = CoreTextMagazine;
+			sourceTree = "<group>";
+		};
+		32CCA3811EF7BC050034AA3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32CCA3821EF7BC050034AA3E /* CoreText.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +148,7 @@
 				32CCA37A1EF7B6F10034AA3E /* LaunchScreen.storyboard in Resources */,
 				32CCA3771EF7B6F10034AA3E /* Assets.xcassets in Resources */,
 				32CCA3751EF7B6F10034AA3E /* Main.storyboard in Resources */,
+				32CCA3871EF8066A0034AA3E /* zombieMagMaterials in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CCA3721EF7B6F10034AA3E /* ViewController.swift in Sources */,
+				32CCA3851EF7BDCE0034AA3E /* CTView.swift in Sources */,
+				32CCA3891EF8079B0034AA3E /* MarkupParser.swift in Sources */,
 				32CCA3701EF7B6F10034AA3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
